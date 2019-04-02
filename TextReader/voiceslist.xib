@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="voiceslist" customModule="TextReader" customModuleProvider="target">
+            <connections>
+                <outlet property="table" destination="geL-2P-9M4" id="R98-T1-Htg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="WcT-GF-Vaa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="351"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="geL-2P-9M4">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="351"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="geL-2P-9M4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="JUM-gV-Qg5"/>
+                <constraint firstItem="geL-2P-9M4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="MuC-EM-sDN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="geL-2P-9M4" secondAttribute="trailing" id="aBP-Kf-LCb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="geL-2P-9M4" secondAttribute="bottom" id="xP9-KY-uF4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="96.799999999999997" y="597.75112443778119"/>
+        </view>
+    </objects>
+</document>
